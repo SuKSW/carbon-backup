@@ -97,7 +97,6 @@ public class ServiceReferenceHolder {
         return null;
     }
 
-
     /**
      * Gives the secure vault instance if already set
      *

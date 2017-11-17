@@ -38,7 +38,6 @@ public class ServiceDiscoveryImplConfig {
     @Element(description = "implementation specific parameters")
     private HashMap<String, String> implParameters = new LinkedHashMap<>();
 
-
     public ServiceDiscoveryImplConfig() {
         implParameters.put(ServiceDiscovererKubernetes.MASTER_URL, "");
         implParameters.put(ServiceDiscovererKubernetes.CA_CERT_PATH,

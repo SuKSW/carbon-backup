@@ -36,7 +36,6 @@ public class ServiceDiscoveryConfigurations {
     @Element(description = "service discovery implementations list")
     private List<ServiceDiscoveryImplConfig> implementationsList = new ArrayList<>();
 
-
     public ServiceDiscoveryConfigurations() {
         implementationsList.add(new ServiceDiscoveryImplConfig());
     }

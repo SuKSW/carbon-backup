@@ -218,8 +218,6 @@ public class FileEncryptionUtility {
         return aesKey;
     }
 
-    /* Getters and Setters */
-
     public FileEncryptionConfigurations getConfig() {
         return config;
     }

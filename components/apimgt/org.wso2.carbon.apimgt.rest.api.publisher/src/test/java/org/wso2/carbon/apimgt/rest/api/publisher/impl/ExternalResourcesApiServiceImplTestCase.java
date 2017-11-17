@@ -20,7 +20,6 @@
 
 package org.wso2.carbon.apimgt.rest.api.publisher.impl;
 
-import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

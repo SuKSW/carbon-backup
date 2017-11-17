@@ -35,7 +35,6 @@ public abstract class ServiceDiscoverer {
     private HashMap<String, String> criteriaFilter;
     int serviceEndpointIndex;
 
-
     /**
      * Initializes the parameters namespaceFilter, criteriaFilter,
      * and calls #initImpl(java.util.HashMap) method
@@ -60,7 +59,6 @@ public abstract class ServiceDiscoverer {
         serviceEndpointIndex = 0;
         initImpl(implParameters);
     }
-
 
     /**
      * Initialization method for all implementation classes

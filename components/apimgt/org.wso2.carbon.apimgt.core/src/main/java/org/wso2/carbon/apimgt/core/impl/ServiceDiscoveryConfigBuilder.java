@@ -52,7 +52,6 @@ public class ServiceDiscoveryConfigBuilder {
         serviceDiscoveryConfig = null;
     }
 
-
     /**
      * Gives the {@link ServiceDiscoveryConfigurations} instance if already built
      *
